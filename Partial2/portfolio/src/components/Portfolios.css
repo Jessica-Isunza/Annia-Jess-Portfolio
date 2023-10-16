@@ -1,0 +1,26 @@
+.section {
+  margin: 20px;
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  }
+
+.projects{
+  margin: 20px;
+  padding: 20px;
+  align-items: center;
+}
+  
+.tittle{
+  display: inline-block;
+  position: relative;
+  font-size: 4rem;
+  top: -20px;
+  left: 10%;  
+  }
+
+.Pimage{
+  width: 20%;
+  border-radius: 50%;
+}
+  
