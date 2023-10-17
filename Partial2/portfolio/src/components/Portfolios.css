@@ -1,5 +1,5 @@
 .section {
-  margin: 20px;
+  background-color: rgba(32, 104, 186, 0.729);
   padding: 20px;
   display: flex;
   align-items: center;
@@ -17,10 +17,55 @@
   font-size: 4rem;
   top: -20px;
   left: 10%;  
+  font-family: NaughtyMonster;
+  letter-spacing: 5px;
+
   }
 
 .Pimage{
   width: 20%;
   border-radius: 50%;
 }
+
+.flip-container {
+	perspective: 1000px;
+}
+	/* when hovered */
+	.flip-container:hover .flipper, .flip-container.hover .flipper {
+		transform: rotateY(180deg);
+	}
+
+.flip-container, .front, .back {
+	width: 350px;
+	height: 400px;
+  border-radius: 20px;
+}
+
+/* flip speed */
+.flipper {
+	transition: 0.6s;
+	transform-style: preserve-3d;
+
+	position: relative;
+}
+
+/* face visibility */
+.front, .back {
+	backface-visibility: hidden;
+  background-color: rgba(140, 200, 252, 0.784);
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+
+.front {
+	z-index: 2;
+	transform: rotateY(0deg);
+}
+
+
+.back {
+	transform: rotateY(180deg);
+}
+
   

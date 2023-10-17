@@ -1,0 +1,48 @@
+.sectionr {
+    background-color: rgba(32, 104, 186, 0.729);
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    font-family: NaughtyMonster;
+    letter-spacing: 5px;
+    }
+    
+.tittler{
+    display: inline-block;
+    position: relative;
+    font-size: 4rem;
+    top: -20px;
+    left: 10%;  
+    }
+
+.tittles{
+    text-align: center;
+}
+
+.skills-languages{
+    display: inline-block;
+    margin: 50px;
+    position: relative;
+    left: 20%;
+}
+
+.contactr{
+    position: relative;
+    font-size: 2rem;
+    top: 40px;
+    left: -25%;
+}
+  
+.Pimager{
+    width: 20%;
+    border-radius: 50%;
+  }
+
+  .cvImage{
+    width: 50%;
+    position: relative;
+    left: 25%;
+    top:20px;
+  }
+  
+    

@@ -16,6 +16,14 @@ function Principal() {
         navigate('/Portfolio2'); 
     };
 
+    const navigateToR1 = () => {
+      navigate('/AnniaResume'); 
+  };
+
+  const navigateToR2 = () => {
+      navigate('/JessResume'); 
+  };
+
   return (
     <div className="App">
     <h1>J-Annia</h1>
@@ -30,6 +38,7 @@ function Principal() {
        Click the button below!</p>
        </div>
       <button className="goButton" onClick={navigateToP1}>Visit Projects</button>
+      <button className="goButton" onClick={navigateToR1}>Resume</button>
     </div>
     <div className="sectionp">
       <img className="Pimagep" src={jess} alt="Imagen 2" />
@@ -42,6 +51,7 @@ function Principal() {
           Click below to see my projects!</p>
         </div>
       <button className="goButton" onClick={navigateToP2}>Visit Projects</button>
+      <button className="goButton" onClick={navigateToR2}>Resume</button>
     </div>
   </div>
   );

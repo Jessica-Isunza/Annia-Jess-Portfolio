@@ -1,6 +1,7 @@
 h1 {
     font-size: 2em;
-    
+    font-family: NaughtyMonster; 
+    letter-spacing: 2px;
   }
   
 .sectionp {
@@ -18,26 +19,34 @@ h1 {
     top: -40px;
     display: inline-block;
     left: 30px;
-    
+    font-family: NaughtyMonster;
+    letter-spacing: 2px;
   }
   
   .goButton{
     position: relative;
-    left: 30%;
+    left: 10%;
+    display: inline-block;
+    font-family: NaughtyMonster;
+    letter-spacing: 2px;
+    border-radius: 8px;
   }
   
   .descriptionp{
     font-size: large;
     margin: 20px;
-    height: 250px;
+    height: 210px;
+    font-family: NaughtyMonster;
+    letter-spacing: 1px;
   }
   
   button {
     background-color: #5e9bcd;
     color: white;
     border: none;
+    position: relative;
     padding: 10px 20px;
-    margin-top: 10px;
+    margin: 10px;
     cursor: pointer;
   }
   
