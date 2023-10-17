@@ -1,15 +1,14 @@
 .cv-container {
-    max-width: 800px;
+    max-width: 1200px;
     margin: 0 auto;
     padding: 20px;
     font-family: Arial, sans-serif;
-    display: grid;
+    display:grid;
     grid-template-columns: 1fr 1fr;
     grid-gap: 20px;
   }
   
   .cv-header {
-    grid-column: span 2;
     text-align: center;
     margin-bottom: 20px;
   }
@@ -23,15 +22,36 @@
   }
   
   .cv-contact {
-    grid-column: span 2;
+    grid-column: span 3;
     margin-bottom: 20px;
     background-color: rgba(200, 26, 151, 0.527);
     text-align: center;
+    color: rgb(255, 182, 233);
+    transition: 0.6s;
+    font-weight: 700;
+  }
+
+  .cv-contact:hover{
+    color: darkmagenta;
   }
   
   .cv-section {
     margin-bottom: 30px;
-    background-color: rgba(125, 26, 200, 0.527);
+    background-color: rgb(125, 26, 200);
+    transition: 0.6s;
+    border-radius: 5vh;
+    font-family: CaviarDreams;
+    color: rgb(182, 201, 226);
+    padding: 5%;
+  }
+
+  .cv-section:hover{
+    border-radius: 0;
+    background: linear-gradient(45deg, rgb(125, 26, 200) 0%, rgba(125, 26, 200, 0.704) 50%, rgb(125, 26, 200) 100%);
+  }
+
+  .cv-section:hover .title-section{
+    color:rgb(164, 197, 218);
   }
   
   .cv-section h2 {
@@ -42,7 +62,7 @@
   .cv-item {
     margin-bottom: 10px;
     text-align:justify;
-    padding-left: 10px;
+    padding-left: 20px;
   }
   
   ul {
@@ -52,6 +72,33 @@
 
   .title-section{
     text-align: center;
+    font-family: NaughtyMonster;
+    color:rgb(122, 118, 225);
+    letter-spacing: 2vh;
+  }
+
+  li{
+    padding-bottom: 10px;
+    list-style: none;
+  }
+
+  li::before {
+    content: "→";
+  }
+
+  .job-title{
+    background-color: rgb(196, 41, 196);
+    border-radius: 1vh;
+  }
+
+  .name{
+    background-color: rgba(32, 104, 186, 0.729);
+    padding: 20px;
+    align-items: center;
+    text-align: center;
+    font-family: NaughtyMonster;
+    letter-spacing: 5px;
+    font-size: 200%;
   }
   
   /* Media Query para pantallas pequeñas */
