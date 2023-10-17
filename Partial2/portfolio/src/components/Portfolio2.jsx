@@ -1,6 +1,8 @@
 import React from 'react';
 import './Portfolios.css';
 import jess from '../assets/jess.jpg';
+import strakh1 from '../assets/strakh1.png';
+import strakh2 from '../assets/strakh2.png';
 
 function Portfolio2() {
   return (
@@ -14,10 +16,10 @@ function Portfolio2() {
         <div className="flip-container" ontouchstart="this.classList.toggle('hover');">
           <div className="flipper">
             <div className="front">
-              <h3 className="titles">img1</h3>
+              <img className="proy1" src={strakh1} alt="Imagen 1" />
             </div>
             <div className="back">
-              <h3 className="titles">img2</h3>
+              <img className="proy1" src={strakh2} alt="Imagen 1" />
             </div>
           </div>
         </div>

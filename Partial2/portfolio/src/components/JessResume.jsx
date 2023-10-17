@@ -1,5 +1,5 @@
 import React from 'react';
-import './resumes.css';
+import './JessResume.css';
 import jess from '../assets/jess.jpg';
 
 function JessResume() {
@@ -10,10 +10,12 @@ function JessResume() {
         <h2 className="tittler">Jessica Isunza</h2>
         <p className='contactr'>milaymichi@hotmail.com | 6691-23-21-91 </p>
         </div>
+        <div className='content'>
         <h2 className='tittles'>EDUCATION</h2>
         <p>Universidad Panamericana Guadalajara. 	 2018 - 2025 <br/>
         Computer graphics and system’s engineering</p>
-        <h2 className='tittles'>PROFESSIONAL EXPERIENCE </h2>
+        </div>
+        <div className='content'><h2 className='tittles'>PROFESSIONAL EXPERIENCE </h2>
         <p>NETBIS marketing analytics 	 December 2022
             Web developer
         </p>
@@ -22,6 +24,8 @@ function JessResume() {
             <li>Designed and created all the assets from scratch using tools as Photoshop, Illustrator and Inkscape.</li>
             <li>Talked with the customer and brought the customers’ marketing strategy to life.</li>
         </ul>
+        </div>
+        <div className='skills'>
         <div  className='skills-languages'>
         <h2 className='tittles'>LANGUAGES</h2>
         <ul>
@@ -37,6 +41,7 @@ function JessResume() {
             <li>Writing.</li>
             <li>Quick Learning.</li>
         </ul>
+        </div>
         </div>
     </div>
   );

@@ -37,7 +37,7 @@
 
 .flip-container, .front, .back {
 	width: 350px;
-	height: 400px;
+	height: 300px;
   border-radius: 20px;
 }
 
@@ -45,14 +45,12 @@
 .flipper {
 	transition: 0.6s;
 	transform-style: preserve-3d;
-
 	position: relative;
 }
 
 /* face visibility */
 .front, .back {
 	backface-visibility: hidden;
-  background-color: rgba(140, 200, 252, 0.784);
 	position: absolute;
 	top: 0;
 	left: 0;
@@ -66,6 +64,11 @@
 
 .back {
 	transform: rotateY(180deg);
+}
+
+.proy1{
+  width: 100%;
+  align-items: center;
 }
 
   
