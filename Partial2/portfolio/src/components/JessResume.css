@@ -17,7 +17,9 @@
 
 .skills-languages{
     display: inline-block;
-    margin: 50px;
+    margin-right: 40px;
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
 
 .skills{
@@ -32,6 +34,8 @@
     margin-bottom: 20px;
     padding-top: 10px;
     padding-bottom: 10px;
+    font-family: NaughtyMonster;
+    letter-spacing: 2px;
 }
 
 .contactr{
@@ -58,5 +62,7 @@
     padding-top: 20px;
     padding-bottom: 20px;
     border-radius: 30px;
+    font-family: NaughtyMonster;
+    letter-spacing: 2px;
 }
     
