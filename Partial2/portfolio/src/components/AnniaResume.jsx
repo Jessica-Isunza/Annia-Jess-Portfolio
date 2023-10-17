@@ -1,6 +1,5 @@
 import React from 'react';
 import './AnniaResume.css';
-import annia from '../assets/annia.jpg';
 
 function AnniaResume() {
   const personalInfo = {
