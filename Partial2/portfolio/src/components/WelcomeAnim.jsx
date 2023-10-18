@@ -1,5 +1,7 @@
 import React from 'react';
-import './WelcomeAnim.css';
+import './WelcomeAnim.css'; //style
+
+//animation components
 
 function WelcomeAnim() {
   return (

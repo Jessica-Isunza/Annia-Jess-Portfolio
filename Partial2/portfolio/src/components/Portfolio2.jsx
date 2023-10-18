@@ -1,6 +1,6 @@
 import React from 'react';
-import './Portfolio2.css';
-import strakh1 from '../assets/strakh1.png';
+import './Portfolio2.css'; //style
+import strakh1 from '../assets/strakh1.png'; //images
 import strakh2 from '../assets/strakh2.png';
 import poke1 from '../assets/pokedex1.png';
 import poke2 from '../assets/pokedex2.png';
@@ -10,10 +10,36 @@ import webgl1 from '../assets/webgl1.png';
 import webgl2 from '../assets/webgl2.png';
 import inst from '../assets/inst.png';
 import git from '../assets/git.png';
-import { useNavigate } from 'react-router-dom';
+import { useNavigate } from 'react-router-dom';//navigation
+
+/*
+  jess´ portfolio page
+  it uses useNavigate to travel back to the main page
+  uses many divs in "cards" to be able to create and rotate the divisions 
+  to simulate the action of flipping a card
+
+  <div className='containers'>
+            <div className="flip-container" ontouchstart="this.classList.toggle('hover');"> //real container
+              <div className="flipper">
+                <div className="front"> //disappears when on hover
+                  <div className='img-cont'>
+                    image content
+                  </div>
+                </div>
+                <div className="back"> //appears when on hover
+                  <div className='img-cont'>
+                    image content
+                  </div>
+                </div>
+              </div>
+            </div>
+
+*/ 
+
 
 
 function Portfolio2() {
+  //navigation function to return to principal
   const navigate = useNavigate();
 
   const navigateToPrinc = () => {
@@ -21,6 +47,7 @@ function Portfolio2() {
   };
 
   return (
+    //body
     <div>
       <div className="section">
         <h2 className="tittle">Jessica Isunza</h2>

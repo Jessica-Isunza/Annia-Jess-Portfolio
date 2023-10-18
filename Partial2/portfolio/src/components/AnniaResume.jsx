@@ -1,15 +1,16 @@
 import React from 'react';
-import './AnniaResume.css';
-import MailOutlineIcon from '@mui/icons-material/MailOutline';
+import './AnniaResume.css'; //style
+import MailOutlineIcon from '@mui/icons-material/MailOutline'; //icons
 import InstagramIcon from '@mui/icons-material/Instagram';
 import LocalPhone from '@mui/icons-material/LocalPhone';
 import TranslateIcon from '@mui/icons-material/Translate';
 import SchoolIcon from '@mui/icons-material/School';
 import LightbulbIcon from '@mui/icons-material/Lightbulb';
-import { useNavigate } from 'react-router-dom';
+import { useNavigate } from 'react-router-dom'; //navigate
 
 
 function AnniaResume() {
+  //navigation function to return to principal
   const navigate = useNavigate();
 
   const navigateToPrinc = () => {

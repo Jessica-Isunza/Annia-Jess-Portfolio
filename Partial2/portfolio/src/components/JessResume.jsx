@@ -1,11 +1,17 @@
 import React from 'react';
-import './JessResume.css';
-import inst from '../assets/inst.png';
+import './JessResume.css';// style
+import inst from '../assets/inst.png';//images
 import git from '../assets/git.png';
-import { useNavigate } from 'react-router-dom';
+import { useNavigate } from 'react-router-dom'; //navigation
+
+/*
+  Jessica's resume page
+  it uses useNavigate to return to principal
+
+*/ 
 
 function JessResume() {
-
+  //navigation function to return to principal
   const navigate = useNavigate();
 
   const navigateToPrinc = () => {
@@ -13,6 +19,7 @@ function JessResume() {
   };
 
   return (
+    //body
     <div>
       <div className="sectionr">
         <h2 className="tittler">Jessica Isunza</h2>

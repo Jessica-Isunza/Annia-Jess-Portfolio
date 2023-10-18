@@ -1,12 +1,19 @@
 import React from 'react';
-import './Principal.css';
-import jess from '../assets/jess.jpg';
+import './Principal.css';// style
+import jess from '../assets/jess.jpg'; //images
 import annia from '../assets/annia.jpg';
 import PersonIcon from '@mui/icons-material/Person';
-import { useNavigate } from 'react-router-dom';
+import { useNavigate } from 'react-router-dom'; //navigation
+
+/*
+  this is the "about us" page and principal page
+  it uses useNavigate to travel through the different pages in our website
+
+*/ 
 
 function Principal() {
 
+  //navigation functions for buttons
     const navigate = useNavigate();
 
     const navigateToP1 = () => {
@@ -27,6 +34,7 @@ function Principal() {
 
 
   return (
+    //body
     <div className="App">
     <div className="header">
     </div>

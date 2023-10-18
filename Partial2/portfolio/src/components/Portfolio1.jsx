@@ -1,9 +1,9 @@
 import React from 'react';
-import './PortfolioAnnia.css';
-import MailOutlineIcon from '@mui/icons-material/MailOutline';
+import './PortfolioAnnia.css'; //style
+import MailOutlineIcon from '@mui/icons-material/MailOutline'; //icons
 import InstagramIcon from '@mui/icons-material/Instagram';
 import LocalPhone from '@mui/icons-material/LocalPhone';
-import monsters from '../assets/monsters1.png';
+import monsters from '../assets/monsters1.png'; //images
 import monsters2 from '../assets/monsters2.png';
 import capin1 from '../assets/capin1.png';
 import capin2 from '../assets/capin2.png';
@@ -11,9 +11,35 @@ import animals1 from '../assets/animals1.png';
 import animals2 from '../assets/animals2.png';
 import pins1 from '../assets/pins1.png';
 import pins2 from '../assets/pins2.png';
-import { useNavigate } from 'react-router-dom';
+import { useNavigate } from 'react-router-dom'; //navigation
+
+/*
+  annia's portfolio page
+  it uses useNavigate to travel back to the main page
+  uses many divs in "cards" to be able to create and rotate the divisions 
+  to simulate the action of flipping a card
+
+  <div className='containers'>
+            <div className="flip-container" ontouchstart="this.classList.toggle('hover');">
+              <div className="flipper">
+                <div className="front"> //disappears when on hover
+                  <div className='img-cont'>
+                    content
+                  </div>
+                </div>
+                <div className="back"> //appears when on hover
+                  <div className='img-cont'>
+                    content
+                  </div>
+                </div>
+              </div>
+            </div>
+
+*/ 
+
 
 function Portfolio1() {
+  //navigation function to return to principal
   const navigate = useNavigate();
 
   const navigateToPrinc = () => {
@@ -21,6 +47,7 @@ function Portfolio1() {
   };
 
   return (
+    //body
     <div>
       <div className="header">
       <button className="goButton" onClick={navigateToPrinc}>Home</button>

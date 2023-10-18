@@ -1,4 +1,5 @@
-@font-face {
+/* font declaration*/ 
+@font-face { 
   font-family: 'NaughtyMonster';
   src: local('NaughtyMonster'),
        url('./assets/NaughtyMonster.otf') format('opentype');
@@ -9,6 +10,7 @@
   src: local('CaviarDreams'),
        url('./assets/CaviarDreams.ttf') format('truetype');
 }
+
 .App {
   text-align: center;
 }
