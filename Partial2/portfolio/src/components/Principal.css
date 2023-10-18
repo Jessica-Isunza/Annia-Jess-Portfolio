@@ -34,9 +34,14 @@ h1 {
     background-color: rgb(0, 104, 132);
     text-align: left;
     font-weight: 700;
-    padding-top: 2vh;
-    padding-bottom: 2vh;
-    padding-left: 2vh;
+    position: absolute;
+    bottom: -20;
+    height: auto;
+    width: 100%;
+    padding-top: 40px;
+    color: white;
+    font-family: NaughtyMonster;
+    letter-spacing: 2px;
   }
 
   .about{
@@ -51,12 +56,14 @@ h1 {
     position: relative;
     top: -40px;
     display: inline-block;
-    left: 30px;
+    left: 20px;
     font-family: NaughtyMonster;
     letter-spacing: 2px;
     color: rgb(59, 14, 130);
     font-size: 200%;
     background-color: plum;
+    border-radius: 8px;
+    padding: 5px;
   }
   
   .goButton{
@@ -90,7 +97,7 @@ h1 {
   }
 
   .companyname-t{
-    background-color: rgb(0, 104, 132);
+    background-color: rgb(11, 133, 166);
     width: fit-content;
     padding: 3vh;
     border-radius: 5vh;
@@ -120,17 +127,17 @@ h1 {
   }
 
   .sectionp:hover{
-    background-color: rgb(0, 104, 132);
+    background-color: rgb(46, 145, 172);
   }
   
   .sectionp:hover .tittlep{
-    background-color: rgb(68, 174, 203);
+    background-color: #c97aa5;
   }
 
   .sectionp:hover .goButton{
-    background-color: rgb(68, 174, 203);
+    background-color: #c97aa5;
   }
 
   .sectionp:hover .goButton:hover{
-    background-color: rgb(52, 131, 153);
+    background-color: plum;
   }

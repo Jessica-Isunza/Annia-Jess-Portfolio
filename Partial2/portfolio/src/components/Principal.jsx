@@ -25,10 +25,10 @@ function Principal() {
       navigate('/JessResume'); 
   };
 
+
   return (
     <div className="App">
     <div className="header">
-    <button className="goButton">Home</button>
     </div>
     <div className='companyname'>
       <div className='companyname-t'>J-Annia</div>

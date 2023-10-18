@@ -91,12 +91,17 @@
   border-radius: 30px;
   font-family: NaughtyMonster;
   letter-spacing: 2px;
+  display: flex;
 }
 
 .proj-tittle{
   font-size: 25px;
   position: relative;
+  top: -120px;
   margin-top: 5px;
+  padding-bottom: 5px;
+  margin-top: 5px;
+  width:500px;
 }
 
 .img-cont{
@@ -108,9 +113,35 @@
 
 .containers{
   position: relative;
-  left: 720px;
-  top: -40px;
+  left: -36%;
+  top: 10%;
   width: 0px;
+}
+
+.goButtonH2{
+  position: relative;
+  left: 40%;
+  top:60px;
+  display: inline-block;
+  font-family: NaughtyMonster;
+  letter-spacing: 2px;
+  border-radius: 8px;
+  transition: 0.6s;
+  background:#a3caf4 ;
+  color: black;
+}
+
+.goButtonH2:hover {
+  background-color: rgb(121, 178, 240);
+}
+
+.descript-projects{
+  font-size: 18px;
+  position: relative;
+  text-align: justify;
+  top: -20px;
+  left: -39%;
+  width: 800px;
 }
 
   

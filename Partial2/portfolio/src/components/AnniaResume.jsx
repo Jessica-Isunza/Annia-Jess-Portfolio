@@ -6,8 +6,16 @@ import LocalPhone from '@mui/icons-material/LocalPhone';
 import TranslateIcon from '@mui/icons-material/Translate';
 import SchoolIcon from '@mui/icons-material/School';
 import LightbulbIcon from '@mui/icons-material/Lightbulb';
+import { useNavigate } from 'react-router-dom';
+
 
 function AnniaResume() {
+  const navigate = useNavigate();
+
+  const navigateToPrinc = () => {
+    navigate('/Principal'); 
+  };
+
   const personalInfo = {
     address: '@annia_nav',
     email: 'anninavarromedina@gmail.com',
@@ -64,7 +72,7 @@ function AnniaResume() {
   return (
     <div>
       <div className="header">
-      <button className="goButton">Home</button>
+      <button className="goButton" onClick={navigateToPrinc}>Home</button>
       </div>
       <div className="name">
         <h2>Annia Navarro</h2>

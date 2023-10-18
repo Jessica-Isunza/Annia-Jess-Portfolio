@@ -11,13 +11,19 @@ import animals1 from '../assets/animals1.png';
 import animals2 from '../assets/animals2.png';
 import pins1 from '../assets/pins1.png';
 import pins2 from '../assets/pins2.png';
-import { Link } from "react-router-dom";
+import { useNavigate } from 'react-router-dom';
 
 function Portfolio1() {
+  const navigate = useNavigate();
+
+  const navigateToPrinc = () => {
+    navigate('/Principal'); 
+  };
+
   return (
     <div>
       <div className="header">
-      <button className="goButton">Home</button>
+      <button className="goButton" onClick={navigateToPrinc}>Home</button>
       </div>
       <div className="name">
         <h2>Annia Navarro</h2>

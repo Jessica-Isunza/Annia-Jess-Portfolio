@@ -2,13 +2,22 @@ import React from 'react';
 import './JessResume.css';
 import inst from '../assets/inst.png';
 import git from '../assets/git.png';
+import { useNavigate } from 'react-router-dom';
 
 function JessResume() {
+
+  const navigate = useNavigate();
+
+  const navigateToPrinc = () => {
+    navigate('/Principal'); 
+  };
+
   return (
     <div>
       <div className="sectionr">
         <h2 className="tittler">Jessica Isunza</h2>
         <p className='contactr'>milaymichi@hotmail.com | 6691-23-21-91 </p>
+        <button className="goButtonH" onClick={navigateToPrinc}>Home</button>
         </div>
         <div className='content'>
         <h2 className='tittles'>EDUCATION</h2>
