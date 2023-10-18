@@ -146,9 +146,9 @@
   /* text animation*/
   @keyframes move {
     0% {
-        transform: translateY(0); /* Posición inicial */
+        transform: translateY(0); /* Initial pos */
     }
     100% {
-        transform: translateY(-20px); /* Posición final */
+        transform: translateY(-20px); /* Final pos */
     }
 }

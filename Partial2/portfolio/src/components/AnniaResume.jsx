@@ -17,6 +17,7 @@ function AnniaResume() {
     navigate('/Principal'); 
   };
 
+  //all these arrays contain the personal information that will be mapped into each resume's section
   const personalInfo = {
     address: '@annia_nav',
     email: 'anninavarromedina@gmail.com',
@@ -70,6 +71,10 @@ function AnniaResume() {
     },
   ];
 
+  /*the main logic is using divs in column spans to have the information well organized,
+  it has an animation in the subtitle, and then when the information is shown, I used .map
+  to list the different elements in each section
+*/
   return (
     <div>
       <div className="header">
@@ -108,9 +113,9 @@ function AnniaResume() {
           <h2 className="title-section">Skills:</h2>
           <ul>
             {skills.map((skill, index) => (
-              <li key={index}><LightbulbIcon/>{skill}</li>
+              <li key={index}><LightbulbIcon/>{skill}</li> 
             ))}
-          </ul>
+          </ul> {/*Icons imported from Material UI to make it look better, instead of the regular li symbols*/}
         </div>
 
         <div className="cv-section">
@@ -133,6 +138,7 @@ function AnniaResume() {
 
         <div className="cv-contact">
         <div className='icon'>
+          {/*For social media, I used an href to send you to my page.*/}
             <InstagramIcon></InstagramIcon>
             <p className='invisible'>aaa</p>
             <a href='https://www.instagram.com/annia_nav' target="_blank">@annia_nav</a>
