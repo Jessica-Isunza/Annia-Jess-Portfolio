@@ -1,14 +1,17 @@
 h1 {
-    font-size: 2em;
+    font-size: 90px;
     font-family: NaughtyMonster; 
     letter-spacing: 2px;
+    color: rgb(196, 41, 196);
   }
   
 .sectionp {
     margin: 20px;
+    margin-top: -10px;
     padding: 20px;
     border-radius: 10%;
-    border: 1px solid #4a6192;
+    border: 1px;
+    background-color: #829fdd;
     display: inline-block;
     text-align: left;
     width: 300px;
@@ -41,7 +44,7 @@ h1 {
   }
   
   button {
-    background-color: #5e9bcd;
+    background-color: plum;
     color: white;
     border: none;
     position: relative;
@@ -51,7 +54,7 @@ h1 {
   }
   
   button:hover {
-    background-color: #2d83de;
+    background-color: #c97aa5;
   }
   
   .Pimagep{

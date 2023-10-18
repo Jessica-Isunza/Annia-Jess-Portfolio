@@ -1,12 +1,12 @@
 import React from 'react';
 import './JessResume.css';
-import jess from '../assets/jess.jpg';
+import inst from '../assets/inst.png';
+import git from '../assets/git.png';
 
 function JessResume() {
   return (
     <div>
       <div className="sectionr">
-        <img className="Pimager" src={jess} alt="Imagen 1" />
         <h2 className="tittler">Jessica Isunza</h2>
         <p className='contactr'>milaymichi@hotmail.com | 6691-23-21-91 </p>
         </div>
@@ -16,7 +16,7 @@ function JessResume() {
         Computer graphics and system’s engineering</p>
         </div>
         <div className='content'><h2 className='tittles'>PROFESSIONAL EXPERIENCE </h2>
-        <p>NETBIS marketing analytics 	 December 2022
+        <p>NETBIS marketing analytics 	 December 2022 <br/>
             Web developer
         </p>
         <ul>
@@ -43,6 +43,12 @@ function JessResume() {
         </ul>
         </div>
         </div>
+        <footer>
+          <img className="conti" src={inst} alt="Imagen 1" />
+          <p class="cont">Instagram: @glitching.child</p>
+          <img className="conti" src={git} alt="Imagen 1" />
+          <p class="cont">Github: Jessica-Isunza</p>
+        </footer>
     </div>
   );
 }

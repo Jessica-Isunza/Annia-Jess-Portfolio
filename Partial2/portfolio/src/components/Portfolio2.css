@@ -1,5 +1,5 @@
 .section {
-  background-color: rgba(32, 104, 186, 0.729);
+  background-color: #c97aa5;
   padding: 20px;
   display: flex;
   align-items: center;
@@ -16,16 +16,12 @@
   position: relative;
   font-size: 4rem;
   top: -20px;
-  left: 10%;  
+  left: 5%;  
   font-family: NaughtyMonster;
   letter-spacing: 5px;
+  color: white;
 
   }
-
-.Pimage{
-  width: 20%;
-  border-radius: 50%;
-}
 
 .flip-container {
 	perspective: 1000px;
@@ -66,8 +62,55 @@
 	transform: rotateY(180deg);
 }
 
-.proy1{
-  width: 100%;
+.proyi{
+  width: 90%;
+  padding: 5%;
+}
+
+.proj{
+  position: relative;
+  font-size: 2rem;
+  top: 60px;
+  left: -15%;
+  color: white;
+  font-family: NaughtyMonster;
+  letter-spacing: 2px;
+}
+
+.projects{
+  margin: 50px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  position: relative;
+  left: 5%;
+  background-color: rgb(121, 178, 240);
+  width: 80%;
+  padding: 50px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  border-radius: 30px;
+  font-family: NaughtyMonster;
+  letter-spacing: 2px;
+}
+
+.proj-tittle{
+  font-size: 25px;
+  position: relative;
+  margin-top: 5px;
+}
+
+.img-cont{
+  background-color: #c97aa5;
+  width: 450px;
+  height: 280px;
+  border-radius: 8px;
+}
+
+.containers{
+  position: relative;
+  left: 720px;
+  top: -40px;
+  width: 0px;
 }
 
   

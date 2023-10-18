@@ -1,5 +1,5 @@
 .sectionr {
-    background-color: rgba(32, 104, 186, 0.729);
+    background-color: #c97aa5;
     padding: 20px;
     display: flex;
     align-items: center;
@@ -11,8 +11,10 @@
     display: inline-block;
     position: relative;
     font-size: 4rem;
-    top: -20px;
-    left: 10%;  
+    top: -25px;
+    left: 35%;  
+    color: white;
+    
     }
 
 .skills-languages{
@@ -23,7 +25,7 @@
 }
 
 .skills{
-    background-color: rgb(98, 191, 241);
+    background-color: rgb(121, 178, 240);
     padding: 50px;
     width: 50%;
     margin: 50px;
@@ -42,13 +44,8 @@
     position: relative;
     font-size: 2rem;
     top: 40px;
-    left: -25%;
+    color: white;
 }
-  
-.Pimager{
-    width: 20%;
-    border-radius: 50%;
-  }
   
 .content{
     margin: 50px;
@@ -56,7 +53,7 @@
     margin-bottom: 20px;
     position: relative;
     left: 20%;
-    background-color: rgb(98, 191, 241);
+    background-color: rgb(121, 178, 240);
     width: 50%;
     padding: 50px;
     padding-top: 20px;
@@ -65,4 +62,42 @@
     font-family: NaughtyMonster;
     letter-spacing: 2px;
 }
-    
+
+.tittles{
+    background-color: #c97aa5;
+    border-radius: 8px;
+    text-align: center;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    color: white;
+}
+
+footer{
+    position: absolute;
+    bottom: -20;
+    background: #c97aa5;
+    height: auto;
+    width: 100%;
+    padding-top: 40px;
+    color: white;
+    font-family: NaughtyMonster;
+    letter-spacing: 2px;
+}
+
+.cont{
+    position: relative;
+    display: inline-block;
+    padding-right: 80px;
+    padding-left: 10px;
+    left: 35%;
+    bottom: 20px;;
+}
+
+.conti{
+    width: 20px;
+    position: relative;
+    display: inline-block;
+    left: 35%;
+    bottom: 15px;;
+
+}
