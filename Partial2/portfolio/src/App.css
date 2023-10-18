@@ -3,6 +3,12 @@
   src: local('NaughtyMonster'),
        url('./assets/NaughtyMonster.otf') format('opentype');
 }
+
+@font-face {
+  font-family: 'CaviarDreams';
+  src: local('CaviarDreams'),
+       url('./assets/CaviarDreams.ttf') format('truetype');
+}
 .App {
   text-align: center;
 }

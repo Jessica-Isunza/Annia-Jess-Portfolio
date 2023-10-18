@@ -1,5 +1,11 @@
 import React from 'react';
 import './AnniaResume.css';
+import MailOutlineIcon from '@mui/icons-material/MailOutline';
+import InstagramIcon from '@mui/icons-material/Instagram';
+import LocalPhone from '@mui/icons-material/LocalPhone';
+import TranslateIcon from '@mui/icons-material/Translate';
+import SchoolIcon from '@mui/icons-material/School';
+import LightbulbIcon from '@mui/icons-material/Lightbulb';
 
 function AnniaResume() {
   const personalInfo = {
@@ -57,17 +63,21 @@ function AnniaResume() {
 
   return (
     <div>
+      <div className="header">
+      <button className="goButton">Home</button>
+      </div>
       <div className="name">
         <h2>Annia Navarro</h2>
+        <div className='subt'>This is me!</div>
       </div>
       <div className="cv-container">
         <div className="cv-section">
-          <h2 className="title-section">Experience:</h2>
+          <h2 className="title-section">EXPERIENCE:</h2>
           {experience.map((job, index) => (
             <div className="cv-item" key={index}>
               <h3 className='job-title'>{job.jobTitle}</h3>
               <p>{job.company}</p>
-              <p>{job.date}</p>
+              <p className='date-title'>{job.date}</p>
               <p>{job.description}</p>
             </div>
           ))}
@@ -79,7 +89,7 @@ function AnniaResume() {
             <div className="cv-item" key={index}>
               <br></br>
               <h3 className='job-title'>{edu.degree}</h3>
-              <p>{edu.institution}</p>
+              <p className='date-title'>{edu.institution}</p>
               <p>{edu.date}</p>
             </div>
           ))}
@@ -89,13 +99,13 @@ function AnniaResume() {
           <h2 className="title-section">Skills:</h2>
           <ul>
             {skills.map((skill, index) => (
-              <li key={index}>{skill}</li>
+              <li key={index}><LightbulbIcon/>{skill}</li>
             ))}
           </ul>
         </div>
 
         <div className="cv-section">
-          <h2 className="title-section">Academic achievements:</h2>
+          <h2 className="title-section"> <SchoolIcon/> Academic achievements:</h2>
           <ul>
             {achievements.map((achievement, index) => (
               <li key={index}>{achievement}</li>
@@ -104,7 +114,7 @@ function AnniaResume() {
         </div>
 
         <div className="cv-section">
-          <h2 className="title-section">Languages:</h2>
+          <h2 className="title-section"><TranslateIcon/> Languages:</h2>
           {languages.map((lang, index) => (
             <div className="cv-item" key={index}>
               <p>{lang.language}</p>
@@ -113,9 +123,21 @@ function AnniaResume() {
         </div>
 
         <div className="cv-contact">
-          <p>{personalInfo.address}</p>
-          <p>Email: {personalInfo.email}</p>
-          <p>Phone: {personalInfo.phone}</p>
+        <div className='icon'>
+            <InstagramIcon></InstagramIcon>
+            <p className='invisible'>aaa</p>
+            <a href='https://www.instagram.com/annia_nav' target="_blank">@annia_nav</a>
+          </div>
+          <div className='icon'>
+            <MailOutlineIcon></MailOutlineIcon>
+            <p className='invisible'>aaa</p>
+            <a href='mailto:anninavarromedina@gmail.com' target="_blank">anninavarromedina@gmail.com</a>
+          </div>
+          <div className='icon'>
+            <LocalPhone></LocalPhone>
+            <p className='invisible'>aaa</p>
+            <p>{personalInfo.phone}</p>
+          </div>
         </div>
       </div>
     </div>

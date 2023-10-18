@@ -24,20 +24,27 @@
   .cv-contact {
     grid-column: span 3;
     margin-bottom: 20px;
-    background-color: rgba(200, 26, 151, 0.527);
+    background-color: rgb(0, 158, 137);
     text-align: center;
-    color: rgb(255, 182, 233);
+    color: rgb(137, 219, 236);
     transition: 0.6s;
     font-weight: 700;
+    font-family: CaviarDreams;
+    display:flex;
+    flex-direction: column;
+    padding-left: 40%;
+    padding-top: 2vh;
+    padding-bottom: 2vh;
   }
 
   .cv-contact:hover{
-    color: darkmagenta;
+    color: rgba(214, 187, 236, 0.519);
+    background-color: rgba(156, 80, 214, 0.519);
   }
   
   .cv-section {
     margin-bottom: 30px;
-    background-color: rgb(125, 26, 200);
+    background-color: rgba(0, 144, 158);
     transition: 0.6s;
     border-radius: 5vh;
     font-family: CaviarDreams;
@@ -47,11 +54,15 @@
 
   .cv-section:hover{
     border-radius: 0;
-    background: linear-gradient(45deg, rgb(125, 26, 200) 0%, rgba(125, 26, 200, 0.704) 50%, rgb(125, 26, 200) 100%);
+    background-color: rgba(156, 80, 214, 0.519);
   }
 
   .cv-section:hover .title-section{
     color:rgb(164, 197, 218);
+  }
+
+  .cv-section:hover .job-title{
+    background-color: darkmagenta;
   }
   
   .cv-section h2 {
@@ -73,33 +84,58 @@
   .title-section{
     text-align: center;
     font-family: NaughtyMonster;
-    color:rgb(122, 118, 225);
+    color:rgb(158, 218, 234);
     letter-spacing: 2vh;
   }
+
 
   li{
     padding-bottom: 10px;
     list-style: none;
   }
 
-  li::before {
-    content: "→";
-  }
-
   .job-title{
-    background-color: rgb(196, 41, 196);
+    background-color: rgb(0, 104, 132);;
     border-radius: 1vh;
   }
 
   .name{
-    background-color: rgba(32, 104, 186, 0.729);
+    background-color: rgb(0, 104, 132);;
     padding: 20px;
     align-items: center;
     text-align: center;
     font-family: NaughtyMonster;
     letter-spacing: 5px;
-    font-size: 200%;
+    font-size: 250%;
+    color: rgb(137, 219, 236);
   }
+
+  .subt{
+    font-family: CaviarDreams;
+    animation: move 1s infinite alternate;
+  }
+
+  .date-title{
+    color: rgb(137, 219, 236);
+  }
+
+  .icon{
+    display: flex;
+    align-items: center;
+  }
+
+  .invisible{
+    color: transparent;
+  }
+
+  @keyframes move {
+    0% {
+        transform: translateY(0); /* Posición inicial */
+    }
+    100% {
+        transform: translateY(-20px); /* Posición final */
+    }
+}
   
   /* Media Query para pantallas pequeñas */
   @media (max-width: 600px) {

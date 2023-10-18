@@ -15,6 +15,36 @@ h1 {
     display: inline-block;
     text-align: left;
     width: 300px;
+    transition: 0.6s;
+  }
+
+  .icon-t{
+    height: 200%;
+  }
+
+  .logo{
+    font-family: NaughtyMonster;
+    font-size: 200%;
+    text-align: center;
+    color: rgb(137, 219, 236);
+  }
+
+  .footer{
+    margin-bottom: 20px;
+    background-color: rgb(0, 104, 132);
+    text-align: left;
+    font-weight: 700;
+    padding-top: 2vh;
+    padding-bottom: 2vh;
+    padding-left: 2vh;
+  }
+
+  .about{
+    font-family: CaviarDreams;
+    font-size: 250%;
+    padding: 5vh;
+    color: #829fdd;
+    animation: move 1s infinite alternate;
   }
   
   .tittlep{
@@ -24,6 +54,9 @@ h1 {
     left: 30px;
     font-family: NaughtyMonster;
     letter-spacing: 2px;
+    color: rgb(59, 14, 130);
+    font-size: 200%;
+    background-color: plum;
   }
   
   .goButton{
@@ -33,14 +66,34 @@ h1 {
     font-family: NaughtyMonster;
     letter-spacing: 2px;
     border-radius: 8px;
+    transition: 0.6s;
   }
   
   .descriptionp{
     font-size: large;
     margin: 20px;
     height: 210px;
-    font-family: NaughtyMonster;
+    font-family: CaviarDreams;
     letter-spacing: 1px;
+    color: rgb(59, 14, 130);
+  }
+
+  .companyname{
+    padding: 40px;
+    text-align: center;
+    padding-left: 38%;
+    font-family: NaughtyMonster;
+    letter-spacing: 20px;
+    font-size: 400%;
+    color: rgb(137, 219, 236);
+    margin-top: -20px;
+  }
+
+  .companyname-t{
+    background-color: rgb(0, 104, 132);
+    width: fit-content;
+    padding: 3vh;
+    border-radius: 5vh;
   }
   
   button {
@@ -61,4 +114,23 @@ h1 {
     width: 30%;
     border-radius: 50%;
   }
+
+  .aboutme{
+    font-family: CaviarDreams;
+  }
+
+  .sectionp:hover{
+    background-color: rgb(0, 104, 132);
+  }
   
+  .sectionp:hover .tittlep{
+    background-color: rgb(68, 174, 203);
+  }
+
+  .sectionp:hover .goButton{
+    background-color: rgb(68, 174, 203);
+  }
+
+  .sectionp:hover .goButton:hover{
+    background-color: rgb(52, 131, 153);
+  }

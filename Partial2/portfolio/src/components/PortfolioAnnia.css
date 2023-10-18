@@ -1,0 +1,149 @@
+
+  
+  .flip-container {
+      perspective: 1000px;
+  }
+
+  /* when hovered */
+  .flip-container:hover .flipper, .flip-container.hover .flipper {
+      transform: rotateY(180deg);
+  }
+  
+  .flip-container, .front-c, .back {
+      width: 350px;
+      height: 300px;
+    border-radius: 20px;
+  }
+  
+  /* flip speed */
+  .flipper {
+      transition: 0.6s;
+      transform-style: preserve-3d;
+      position: relative;
+  }
+  
+  /* face visibility */
+  .front-c, .back {
+      backface-visibility: hidden;
+      position: absolute;
+      top: 0;
+      left: 0;
+  }
+  
+  .front-c {
+      transform: rotateY(0deg);
+  }
+   
+  .back {
+      transform: rotateY(180deg);
+  }
+
+  .header{
+    margin-bottom: 20px;
+    background-color: #829fdd;
+    text-align: left;
+    color: rgb(182, 196, 227);
+    font-weight: 700;
+    font-family: CaviarDreams;
+    padding-top: 2vh;
+    padding-bottom: 2vh;
+    padding-left: 2vh;
+  }
+  
+  .imgex{
+    width: 90%;
+    padding: 5%;
+  }
+  
+  .proj{
+    position: relative;
+    font-size: 2rem;
+    top: 60px;
+    left: -15%;
+    color: white;
+    font-family: NaughtyMonster;
+    letter-spacing: 2px;
+  }
+  
+  .project-cont{
+    margin: 50px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    position: relative;
+    left: 5%;
+    background-color: rgba(0, 144, 158);
+    width: 80%;
+    padding: 50px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border-radius: 30px;
+    font-family: NaughtyMonster;
+    letter-spacing: 2px;
+    transition: 0.6s;
+  }
+
+  .project-cont:hover{
+    border-radius: 0;
+    background-color: rgba(156, 80, 214, 0.519);
+  }
+
+  .proj-title{
+    font-size: 250%;
+    position: relative;
+    margin-top: 5px;
+    color:rgb(137, 219, 236);
+  }
+
+  .project-cont:hover .proj-title{
+    color: rgb(238, 201, 237);
+  }
+  
+  .proj-img{
+    background-color: rgb(0, 104, 132);
+    height:280px;
+    width: 450px;
+    border-radius: 8px;
+  }
+
+  .project-cont:hover .proj-img{
+    background-color: darkmagenta;
+  }
+  
+  .cards{
+    position: relative;
+    left: 720px;
+    top: -40px;
+    width: 0px;
+  }
+
+  .subt{
+    font-family: CaviarDreams;
+    color:whitesmoke;
+    animation: move 1s infinite alternate;
+  }
+
+  .desc{
+    font-family: CaviarDreams;
+    font-size: 150%;
+    color: whitesmoke;
+  }
+
+  .name{
+    background-color: rgb(0, 104, 132);
+    padding: 20px;
+    align-items: center;
+    text-align: center;
+    font-family: NaughtyMonster;
+    letter-spacing: 5px;
+    font-size: 250%;
+    color: rgb(137, 219, 236);
+  }
+
+  @keyframes move {
+    0% {
+        transform: translateY(0); /* Posición inicial */
+    }
+    100% {
+        transform: translateY(-20px); /* Posición final */
+    }
+}
