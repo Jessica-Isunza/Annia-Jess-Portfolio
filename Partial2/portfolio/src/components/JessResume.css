@@ -1,3 +1,4 @@
+/* header*/
 .sectionr {
     background-color: #c97aa5;
     padding: 20px;
@@ -6,7 +7,8 @@
     font-family: NaughtyMonster;
     letter-spacing: 5px;
     }
-    
+   
+/* main tittle*/
 .tittler{
     display: inline-block;
     position: relative;
@@ -17,6 +19,7 @@
     
     }
 
+    /* skills and languages container*/
 .skills-languages{
     display: inline-block;
     margin-right: 40px;
@@ -24,6 +27,7 @@
     margin-bottom: 20px;
 }
 
+/* skills content*/
 .skills{
     background-color: rgb(121, 178, 240);
     padding: 50px;
@@ -39,14 +43,15 @@
     font-family: NaughtyMonster;
     letter-spacing: 2px;
 }
-
+/*mail and phone*/
 .contactr{
     position: relative;
     font-size: 2rem;
     top: 40px;
     color: white;
 }
-  
+
+/* content container*/
 .content{
     margin: 50px;
     margin-top: 20px;
@@ -63,6 +68,7 @@
     letter-spacing: 2px;
 }
 
+/* section tittles background*/
 .tittles{
     background-color: #c97aa5;
     border-radius: 8px;
@@ -84,6 +90,7 @@ footer{
     letter-spacing: 2px;
 }
 
+/* contact text*/
 .cont{
     position: relative;
     display: inline-block;
@@ -93,6 +100,7 @@ footer{
     bottom: 20px;;
 }
 
+/* contact app images*/
 .conti{
     width: 20px;
     position: relative;
@@ -102,6 +110,7 @@ footer{
 
 }
 
+/* home button*/
 .goButtonH{
     position: relative;
     left: 20%;
@@ -114,7 +123,7 @@ footer{
     background:#a3caf4 ;
     color: black;
   }
-  
+  /* button hover*/
   .goButtonH:hover {
     background-color: rgb(121, 178, 240);
   }

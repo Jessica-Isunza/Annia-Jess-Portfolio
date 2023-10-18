@@ -5,12 +5,14 @@
   align-items: center;
   }
 
+  /* project page tittle*/
 .projects{
   margin: 20px;
   padding: 20px;
   align-items: center;
 }
-  
+
+/*jess name*/
 .tittle{
   display: inline-block;
   position: relative;
@@ -62,11 +64,13 @@
 	transform: rotateY(180deg);
 }
 
+/*project image*/
 .proyi{
   width: 90%;
   padding: 5%;
 }
 
+/* projects page tittle*/
 .proj{
   position: relative;
   font-size: 2rem;
@@ -77,6 +81,7 @@
   letter-spacing: 2px;
 }
 
+/* project content section*/
 .projects{
   margin: 50px;
   margin-top: 20px;
@@ -94,6 +99,7 @@
   display: flex;
 }
 
+/*project tittles*/
 .proj-tittle{
   font-size: 25px;
   position: relative;
@@ -104,20 +110,21 @@
   width:500px;
 }
 
+/* image div container for border*/
 .img-cont{
   background-color: #c97aa5;
   width: 450px;
   height: 280px;
   border-radius: 8px;
 }
-
+/* flip containers*/
 .containers{
   position: relative;
   left: -36%;
   top: 10%;
   width: 0px;
 }
-
+ /* home button*/
 .goButtonH2{
   position: relative;
   left: 40%;
@@ -131,10 +138,12 @@
   color: black;
 }
 
+/* button hover */
 .goButtonH2:hover {
   background-color: rgb(121, 178, 240);
 }
 
+/* project descriptions*/
 .descript-projects{
   font-size: 18px;
   position: relative;
